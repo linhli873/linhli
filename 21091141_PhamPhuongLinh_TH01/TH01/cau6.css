@@ -1,0 +1,27 @@
+
+.content{
+    width: 12oopx;
+    margin: 0 auto;
+    padding: 75px;
+    justify-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+h3{
+    color: yellow;
+    font-size: 20px;
+}
+.cau6{
+    background-color: black;
+    background-size: cover;
+}
+.nd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

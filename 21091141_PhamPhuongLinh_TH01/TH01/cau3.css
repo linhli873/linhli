@@ -1,0 +1,20 @@
+ul li{
+    font-size: 22px;
+}
+h2 {
+    font-size: 25px;
+    white-space: nowrap;
+}
+p{
+    font-size: 22px;
+}
+.button2 {
+    font-size: 22px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(95, 220, 220);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
