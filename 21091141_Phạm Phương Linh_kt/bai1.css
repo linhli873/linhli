@@ -1,0 +1,127 @@
+h1{
+    font-size: 45px;
+    color: red;
+}
+h1 {
+	animation: example 2s ease-in-out infinite;
+  }
+  
+  @keyframes example {
+	0% {
+	  color: #8503ac;
+	}
+	50% {
+	  color: #980000;
+	}
+	100% {
+	  color: blue;
+	}
+  }
+h2{
+    font-size: 30px;
+    color:rgb(171, 5, 5);
+}
+h3{
+    font-size: 30px;
+}
+h4{
+	color: black;
+	font-size: 25px;
+}
+p{
+    font-size: 22px;
+}
+
+.row {
+	display: flex;
+	max-width: 100%;
+	flex-wrap: wrap;
+	margin-left: 100px;
+	margin-right: 85px;
+}
+.col-5{
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+.col-5 .card .center .image-chatluong img{
+	border-radius: 3%;
+}
+
+/*slide*/
+#slideshow {
+	overflow: hidden;
+	height: 550px;
+	width: 1200px;
+	margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+	width: 6400px;
+	animation: slide 8s ease infinite;
+  }
+  
+  .slide {
+	float: left;
+	height: 550px;
+	width: 1200px;
+  }
+  
+	@keyframes slide {
+	20% {margin-left: 0px;}
+	50% {margin-left: -1200px;}
+	60% {margin-left: -1200px;}
+	80% {margin-left: -2400px;}
+	100% {margin-left: -2400px;}
+  }
+
+
+  .p1{
+	margin-bottom: 10px;
+	font-size: 22px;
+	color: black;
+}
+  .footer {
+	float: left;
+/*	margin-bottom: 20px;*/
+	width: 100%;
+/*background-color: green;*/
+	list-style: none;
+/*	background-image: url(hình/Ảnh\ nền\ 2.png);*/
+	background-color: orange;
+	background-size: cover;
+}
+.center-text{
+	text-align: center;
+}
+.boxfooter{
+	width: 70%;
+	margin: 0 auto;
+}
+.boxfooter1{
+	width: 45%;
+	float: left;
+	
+}
+.boxfooter2{
+	width: 40%;
+	float: left;
+	margin-right: 12%;
+	
+}
+
+.col-12 {
+	flex: 0 0 100%;
+    max-width: 100%;
+}
+.video {
+	background-color:#fff8ac;
+	padding: 10px 0;
+	
+}
+.video video {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	border-radius: 50px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
